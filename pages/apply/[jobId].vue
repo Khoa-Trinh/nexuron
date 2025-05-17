@@ -106,11 +106,11 @@ const isModalInfoOpen = ref(false);
 const isModalEmailOpen = ref(false);
 
 const infoState = reactive<Partial<Info>>({
-  fullname: storedForm.value.fullname ?? "",
-  email: storedForm.value.email ?? "",
-  phone: storedForm.value.phone ?? "",
-  github: storedForm.value.github ?? "",
-  facebook: storedForm.value.facebook ?? "",
+  fullname: storedForm.value?.fullname ?? "",
+  email: storedForm.value?.email ?? "",
+  phone: storedForm.value?.phone ?? "",
+  github: storedForm.value?.github ?? "",
+  facebook: storedForm.value?.facebook ?? "",
 });
 
 const emailTokenState = reactive<Partial<EmailToken>>({
@@ -121,13 +121,13 @@ const detailState = reactive<Record<string, Record<string, Partial<Detail>>>>({
   [jobId]: {
     [role]: {
       plan_in_the_next_12_months:
-        storedDetail.value[jobId][role].plan_in_the_next_12_months ?? "",
+        storedDetail.value[jobId][role]?.plan_in_the_next_12_months ?? "",
       how_do_people_think_about_you:
-        storedDetail.value[jobId][role].how_do_people_think_about_you ?? "",
+        storedDetail.value[jobId][role]?.how_do_people_think_about_you ?? "",
       specialized_answer:
-        storedDetail.value[jobId][role].specialized_answer ?? "",
-      portfolio_link: storedDetail.value[jobId][role].portfolio_link ?? "",
-      link_CV_resume: storedDetail.value[jobId][role].link_CV_resume ?? "",
+        storedDetail.value[jobId][role]?.specialized_answer ?? "",
+      portfolio_link: storedDetail.value[jobId][role]?.portfolio_link ?? "",
+      link_CV_resume: storedDetail.value[jobId][role]?.link_CV_resume ?? "",
     },
   },
 });
