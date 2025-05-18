@@ -10,15 +10,17 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Kinh Tế và Marketing",
                 description: [
-                  "As a Marketing Member, you will be responsible for promoting our products and engaging with our audience.",
+                  "Với vai trò là thành viên Ban Kinh Tế và Marketing, bạn sẽ chịu trách nhiệm quảng bá các sản phẩm của nhóm và tương tác với cộng đồng.",
                 ],
                 isQuestion: false,
               },
               {
                 title: "Mô tả công việc",
                 description: [
-                  "Create marketing campaigns",
-                  "Engage with the community",
+                  "Lên ý tưởng và triển khai các chiến dịch truyền thông, quảng bá sản phẩm/dự án của nhóm.",
+                  "Thu thập, phân tích phản hồi từ cộng đồng để đề xuất cải tiến hoạt động truyền thông.",
+                  "Viết bài, thiết kế nội dung truyền thông (bài đăng, poster, video ngắn, v.v.).",
+                  "Báo cáo kết quả các chiến dịch marketing cho trưởng ban/phó ban.",
                 ],
                 isQuestion: false,
               },
@@ -41,8 +43,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chuyên môn",
                 description: [
-                  "Create marketing campaigns",
-                  "Engage with the community",
+                  "Có kiến thức cơ bản về marketing, truyền thông hoặc kinh tế.",
+                  "Có kinh nghiệm quản lý hoặc phát triển các kênh mạng xã hội (Facebook, Instagram, Tiktok, v.v.)",
+                  "Biết sử dụng các công cụ thiết kế (Canva, Photoshop, v.v.)",
+                  "Ưu tiên ứng viên từng tham gia các dự án truyền thông, marketing hoặc có sản phẩm thực tế."
                 ],
                 isQuestion: false,
               },
@@ -59,8 +63,8 @@ export default (jobId: string, role: string) => {
               {
                 title: "Câu hỏi chuyên môn",
                 description: [
-                  "What is your experience in marketing?",
-                  "How do you handle negative feedback?",
+                  "Bạn nghĩ sao về cách marketing của Nexuron?",
+                  "Nếu bạn được đầu tư 10 triệu đồng để quảng bá một sản phẩm công nghệ nhưng mang tính cộng đồng của Nexuron, quy trình của bạn bắt đầu từ đâu (ví dụ như đi từ nền tảng nào, quảng cáo ra sao tiếp cận tệp khách hàng nào, v.v)?",
                 ],
                 isQuestion: true,
               },
@@ -77,15 +81,18 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Kinh Tế và Marketing",
                 description: [
-                  "As a Marketing Vice, you will be responsible for leading the marketing team and developing strategies to promote our products.",
+                  "Với vai trò là thành viên Ban Kinh Tế và Marketing, bạn sẽ chịu trách nhiệm quảng bá các sản phẩm của nhóm và tương tác với cộng đồng.",
                 ],
                 isQuestion: false,
               },
               {
                 title: "Mô tả công việc",
                 description: [
-                  "Lead the marketing team",
-                  "Develop marketing strategies",
+                  "Hỗ trợ Trưởng ban trong việc xây dựng và triển khai chiến lược marketing, phát triển thương hiệu cho nhóm.",
+                  "Quản lý, phân công và giám sát công việc của các thành viên trong ban.",
+                  "Đánh giá hiệu quả các chiến dịch marketing, tổng hợp và báo cáo kết quả cho Trưởng ban.",
+                  "Đào tạo, hướng dẫn các thành viên mới về kỹ năng marketing, truyền thông.",
+                  "Hỗ trợ giải quyết các vấn đề phát sinh trong quá trình triển khai công việc của ban."
                 ],
                 isQuestion: false,
               },
@@ -108,8 +115,11 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chuyên môn",
                 description: [
-                  "Create marketing campaigns",
-                  "Engage with the community",
+                  "Có kỹ năng lãnh đạo, đào tạo và hướng dẫn thành viên mới.",
+                  "Có kinh nghiệm lập kế hoạch và triển khai các chiến dịch marketing thực tế.",
+                  "Có khả năng phân tích dữ liệu, đánh giá hiệu quả các chiến dịch truyền thông.",
+                  "Có kiến thức về SEO, SEM, Google Analytics và các công cụ marketing trực tuyến.",
+                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án truyền thông, marketing hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -126,8 +136,8 @@ export default (jobId: string, role: string) => {
               {
                 title: "Câu hỏi chuyên môn",
                 description: [
-                  "What is your experience in marketing?",
-                  "How do you handle negative feedback?",
+                  "Phân tích tại sao dự án TempurAI tuy sản phẩm tốt nhưng lại thất bại trong việc marketing?",
+                  "Nếu Trưởng ban và các Thành viên không cùng một ý tưởng về cách marketing cho một sản phẩm, bạn sẽ làm gì?",
                 ],
                 isQuestion: true,
               },
@@ -143,15 +153,20 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Kinh Tế và Marketing",
                 description: [
-                  "As a Marketing Head, you will be responsible for overseeing the entire marketing department and ensuring that all marketing efforts align with the company's goals.",
+                  "Với vai trò là thành viên Ban Kinh Tế và Marketing, bạn sẽ chịu trách nhiệm quảng bá các sản phẩm của nhóm và tương tác với cộng đồng.",
                 ],
                 isQuestion: false,
               },
               {
                 title: "Mô tả công việc",
                 description: [
-                  "Oversee the marketing department",
-                  "Ensure alignment with company goals",
+                  "Xây dựng và định hướng chiến lược marketing, phát triển thương hiệu cho tổ chức.",
+                  "Quản lý, điều phối toàn bộ hoạt động của ban Kinh tế & Marketing.",
+                  "Chủ trì các cuộc họp, tổng hợp và báo cáo kết quả hoạt động marketing cho Ban lãnh đạo.",
+                  "Đại diện ban làm việc với các bộ phận khác trong tổ chức.",
+                  "Giải quyết các vấn đề phát sinh, đảm bảo các hoạt động marketing diễn ra hiệu quả và đúng tiến độ.",
+                  "Đánh giá, cải tiến quy trình làm việc và đề xuất các giải pháp đổi mới sáng tạo cho ban.",
+                  "Đào tạo, truyền cảm hứng và phát triển năng lực cho các thành viên trong ban."
                 ],
                 isQuestion: false,
               },
@@ -174,8 +189,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chuyên môn",
                 description: [
-                  "Create marketing campaigns",
-                  "Engage with the community",
+                  "Có kiến thức chuyên sâu về marketing, truyền thông, kinh tế và quản trị thương hiệu.",
+                  "Có kỹ năng lãnh đạo, quản lý đội nhóm và đào tạo phát triển nhân sự.",
+                  "Thành thạo lập kế hoạch chiến lược, phân tích thị trường và đánh giá hiệu quả hoạt động marketing.",
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án truyền thông, marketing hoặc có sản phẩm thực tế."
                 ],
                 isQuestion: false,
               },
@@ -192,8 +209,9 @@ export default (jobId: string, role: string) => {
               {
                 title: "Câu hỏi chuyên môn",
                 description: [
-                  "What is your experience in overseeing a department?",
-                  "How do you ensure alignment with company goals?",
+                  "Bạn có thể chia sẻ một chiến dịch marketing mà bạn đã thực hiện thành công không?",
+                  "Trường hợp thành viên có mâu thuẫn & việc đột xuất, không thể theo kịp tiến độ, bạn sẽ làm gì?",
+                  "Nếu bạn có một ý tưởng marketing nhưng không được sự đồng thuận của các thành viên trong ban, bạn sẽ làm gì?"
                 ],
                 isQuestion: true,
               },
@@ -213,13 +231,19 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Lập trình Game",
                 description: [
-                  "As a Game Member, you will be responsible for designing and producing engaging game-dev experiences.",
+                  "Thiết kế trò chơi, cốt truyện và mang những trò chơi đó đến với cộng đồng, làm nền tảng cho các bạn trẻ yêu thích lập trình game.",
                 ],
                 isQuestion: false,
               },
               {
                 title: "Mô tả công việc",
-                description: ["Design game mechanics", "Produce game assets"],
+                description: [
+                  "Tham gia lên ý tưởng, xây dựng kịch bản và thiết kế gameplay cho các dự án game của nhóm.",
+                  "Tham gia phát triển các sản phẩm game, từ giai đoạn ý tưởng đến hoàn thiện.",
+                  "Thiết kế, chỉnh sửa và tích hợp các tài nguyên game (hình ảnh, âm thanh, hiệu ứng...).",
+                  "Kiểm thử, sửa lỗi và tối ưu hiệu năng cho sản phẩm game.",
+                  "Viết tài liệu hướng dẫn sử dụng, tài liệu kỹ thuật cho game."
+                ],
                 isQuestion: false,
               },
               {
@@ -241,8 +265,12 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chuyên môn",
                 description: [
-                  "Create game mechanics",
-                  "Produce game assets",
+                  "Có kiến thức cơ bản về lập trình game (ví dụ: Pygame, Unity, Godot, Unreal Engine, Cocos hoặc các framework game khác).",
+                  "Biết sử dụng ít nhất một ngôn ngữ lập trình (C#, Python, JavaScript, v.v.) phục vụ phát triển game.",
+                  "Hiểu biết về các nguyên lý thiết kế gameplay, kịch bản, cân bằng game.",
+                  "Có khả năng làm việc nhóm, phối hợp với các thành viên khác (lập trình, thiết kế, âm thanh...).",
+                  "Biết sử dụng github",
+                  "Ưu tiên ứng viên từng tham gia các dự án game hoặc có sản phẩm game cá nhân."
                 ],
                 isQuestion: false,
               },
@@ -259,8 +287,8 @@ export default (jobId: string, role: string) => {
               {
                 title: "Câu hỏi chuyên môn",
                 description: [
-                  "What is your experience in game design?",
-                  "How do you handle creative differences?",
+                  "Theo bạn, trong đợt làm dự án game vừa rồi của thầy Hoàng Anh, dự án nào là dự án thành công nhất? Tại sao?",
+                  "Bạn có thể chia sẻ một dự án game mà bạn đã tham gia không? Bạn đã đóng góp gì cho dự án đó?",
                 ],
                 isQuestion: true,
               },

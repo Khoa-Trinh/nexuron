@@ -33,6 +33,7 @@ const notes = [
   background: linear-gradient(90deg, #ff5252, #ffb142, #fffa65, #32ff7e, #18dcff, #7d5fff, #ff5252);
   background-size: 400% 400%;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: rainbow 3s ease-in-out infinite;
   font-weight: bold;

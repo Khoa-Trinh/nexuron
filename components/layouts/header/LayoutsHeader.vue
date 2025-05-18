@@ -52,6 +52,11 @@ const childrenItems = computed(() => {
 
 const items = computed<NavigationMenuItem[]>(() => [
   { label: "Trang chủ", icon: "i-lucide-home", to: "/" },
+  { 
+    label: "Đội ngũ", 
+    icon: "i-lucide-user", 
+    to: "/founder"
+  },
   {
     label: "Tuyển thành viên",
     icon: "i-lucide-users",
