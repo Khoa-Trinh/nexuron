@@ -1,6 +1,6 @@
 export default (jobId: string, role: string) => {
   switch (jobId) {
-    case "marketing":
+    case "marketing-and-economy":
       switch (role) {
         case "member":
           return {
@@ -25,8 +25,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Create marketing campaigns",
-                  "Engage with the community",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -41,8 +49,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Create marketing campaigns",
-                  "Engage with the community",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -82,8 +92,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "What is your experience in leading a team?",
-                  "How do you measure the success of a marketing campaign?",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: true,
               },
@@ -98,8 +116,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Create marketing campaigns",
-                  "Engage with the community",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -138,8 +158,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "What is your experience in leading a department?",
-                  "How do you measure the success of a marketing strategy?",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: true,
               },
@@ -154,8 +182,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Create marketing campaigns",
-                  "Engage with the community",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -195,8 +225,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Create game mechanics",
-                  "Produce game assets",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -211,8 +249,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Create game mechanics",
-                  "Produce game assets",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -251,8 +291,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the game development team",
-                  "Ensure project completion on time",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -267,8 +315,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Create game mechanics",
-                  "Produce game assets",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -307,8 +357,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the game development department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -323,8 +381,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Create game mechanics",
-                  "Produce game assets",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -366,8 +426,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Monitor web servers for vulnerabilities",
-                  "Implement security measures for APIs",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -382,8 +450,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Monitor web servers for vulnerabilities",
-                  "Implement security measures for APIs",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -422,8 +492,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the web security team",
-                  "Develop security strategies for web applications",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -438,8 +516,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Monitor web servers for vulnerabilities",
-                  "Implement security measures for APIs",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -478,8 +558,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the web security department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -494,8 +582,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Monitor web servers for vulnerabilities",
-                  "Implement security measures for APIs",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -538,8 +628,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Secure mobile applications",
-                  "Implement security measures for desktop applications",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -554,8 +652,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Secure mobile applications",
-                  "Implement security measures for desktop applications",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -594,8 +694,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the app security team",
-                  "Develop security strategies for applications",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -610,8 +718,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Secure mobile applications",
-                  "Implement security measures for desktop applications",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -650,8 +760,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the app security department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -666,8 +784,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Secure mobile applications",
-                  "Implement security measures for desktop applications",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -685,7 +805,7 @@ export default (jobId: string, role: string) => {
           };
       }
       break;
-    case "ai-ml":
+    case "ai-machine-learning":
       switch (role) {
         case "member":
           return {
@@ -710,8 +830,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Research machine learning algorithms",
-                  "Implement machine learning models",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -726,8 +854,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Research machine learning algorithms",
-                  "Implement machine learning models",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -766,8 +896,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the machine learning team",
-                  "Develop machine learning strategies",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -782,8 +920,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Research machine learning algorithms",
-                  "Implement machine learning models",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -814,16 +954,25 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mô tả công việc",
                 description: [
-                  "Oversee the machine learning department",
-                  "Ensure alignment with company goals",
+                  "Quản lí các dự án liên quan đến AI/Machine Learning",
+                  "Đảm bảo tiến độ các dự án được giao",
+                  "Định hướng phát triển cho ban AI/Machine Learning",
                 ],
                 isQuestion: false,
               },
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the machine learning department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -838,8 +987,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Research machine learning algorithms",
-                  "Implement machine learning models",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -857,7 +1008,7 @@ export default (jobId: string, role: string) => {
           };
       }
       break;
-    case "ai-cv":
+    case "ai-computer-vision":
       switch (role) {
         case "member":
           return {
@@ -882,8 +1033,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Build computer vision pipelines",
-                  "Implement image processing algorithms",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -898,8 +1057,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Build computer vision pipelines",
-                  "Implement image processing algorithms",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -938,8 +1099,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the computer vision team",
-                  "Develop computer vision strategies",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -954,8 +1123,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Build computer vision pipelines",
-                  "Implement image processing algorithms",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -994,8 +1165,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the computer vision department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1010,8 +1189,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Build computer vision pipelines",
-                  "Implement image processing algorithms",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1029,7 +1210,7 @@ export default (jobId: string, role: string) => {
           };
       }
       break;
-    case "ai-nlp":
+    case "ai-natural-language-processing":
       switch (role) {
         case "member":
           return {
@@ -1054,8 +1235,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Design natural language models",
-                  "Implement text processing algorithms",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1070,8 +1259,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Design natural language models",
-                  "Implement text processing algorithms",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1110,8 +1301,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the natural language processing team",
-                  "Develop natural language processing strategies",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1126,8 +1325,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Design natural language models",
-                  "Implement text processing algorithms",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1166,8 +1367,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the natural language processing department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1182,8 +1391,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Design natural language models",
-                  "Implement text processing algorithms",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1226,8 +1437,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Develop user interfaces",
-                  "Ensure accessibility standards are met",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1242,8 +1461,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Develop user interfaces",
-                  "Ensure accessibility standards are met",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1282,8 +1503,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the frontend team",
-                  "Develop frontend strategies",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1298,8 +1527,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Develop user interfaces",
-                  "Ensure accessibility standards are met",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1338,8 +1569,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the frontend department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1354,8 +1593,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Develop user interfaces",
-                  "Ensure accessibility standards are met",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1395,8 +1636,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Develop APIs",
-                  "Implement server-side logic",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1411,8 +1660,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Build scalable APIs",
-                  "Implement server-side logic",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1451,8 +1702,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the backend team",
-                  "Develop backend strategies",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1467,8 +1726,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Build scalable APIs",
-                  "Implement server-side logic",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1507,8 +1768,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the backend department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1523,8 +1792,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Build scalable APIs",
-                  "Implement server-side logic",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1542,7 +1813,7 @@ export default (jobId: string, role: string) => {
           };
       }
       break;
-    case "web-ui_ux":
+    case "web-ui-ux":
       switch (role) {
         case "member":
           return {
@@ -1567,8 +1838,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Design user flows",
-                  "Create wireframes for web applications",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1583,8 +1862,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Design intuitive flows",
-                  "Create wireframes for web applications",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1623,8 +1904,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the UI/UX team",
-                  "Develop UI/UX strategies",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1639,8 +1928,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Design intuitive flows",
-                  "Create wireframes for web applications",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1679,8 +1970,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the UI/UX department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1695,8 +1994,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Design intuitive flows",
-                  "Create wireframes for web applications",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1739,8 +2040,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Develop cross-platform desktop applications",
-                  "Implement user interfaces for desktop apps",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1755,8 +2064,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Develop cross-platform desktop applications",
-                  "Implement user interfaces for desktop apps",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1795,8 +2106,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the desktop application team",
-                  "Develop desktop application strategies",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1811,8 +2130,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Develop cross-platform desktop applications",
-                  "Implement user interfaces for desktop apps",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1851,8 +2172,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the desktop application department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1867,8 +2196,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Develop cross-platform desktop applications",
-                  "Implement user interfaces for desktop apps",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1911,8 +2242,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Write firmware for embedded devices",
-                  "Implement control code for hardware components",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1927,8 +2266,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Write firmware for embedded devices",
-                  "Implement control code for hardware components",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -1967,8 +2308,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Lead the embedded systems team",
-                  "Develop embedded systems strategies",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -1983,8 +2332,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Write firmware for embedded devices",
-                  "Implement control code for hardware components",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },
@@ -2023,8 +2374,16 @@ export default (jobId: string, role: string) => {
               {
                 title: "Yêu cầu chung",
                 description: [
-                  "Oversee the embedded systems department",
-                  "Ensure alignment with company goals",
+                  "Học sinh là thành viên của lớp chuyên tin niên khóa 2024-2027 hoặc các niên khóa từ 2025 trở đi",
+                  "Đảm bảo thời gian đồng hành cùng tổ chức ít nhất 12 tháng",
+                  "Nhiệt tình, chủ động, linh hoạt, sáng tạo và có tinh thần trách nhiệm cao",
+                  "Có khả năng giao tiếp, báo cáo hiệu quả, chủ động",
+                  "Có khả năng làm việc dưới áp lực và khả năng quản trị cảm xúc tốt",
+                  "Có tính tỉ mỉ, cẩn thận cao",
+                  "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
+                  "Có sự nhạy bén trong ngôn ngữ",
+                  "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
                 ],
                 isQuestion: false,
               },
@@ -2039,8 +2398,10 @@ export default (jobId: string, role: string) => {
               {
                 title: "Quyền lợi",
                 description: [
-                  "Write firmware for embedded devices",
-                  "Implement control code for hardware components",
+                  "Mỗi thành viên được sử dụng một tên miền <tên-thành-viên>.nexuron.dev",
+                  "Được tham gia vào các dự án lớn",
+                  "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
+                  "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
                 ],
                 isQuestion: false,
               },

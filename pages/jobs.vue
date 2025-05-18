@@ -4,35 +4,62 @@
 // const category = computed(() => String(route.query.category || ""));
 // const subCategory = computed(() => String(route.query.subCategory || ""));
 
+const route = useRoute();
+const filterName = computed(() => route.query.name?.toString() || "");
+const filterSubName = computed(() => route.query.subname?.toString() || "");
+
 const cards = computed(() =>
   ["member", "vice", "head"]
     .map((role) =>
-      team().map((t) => {
-        const label = [
-          t.name === "None" ? t.subName : t.name,
-          t.name === "None" ? null : t.subName,
-        ]
-          .filter((v) => v != null)
-          .join(" - ");
-
-        const to = [
-          t.name === "None" ? t.subName : t.name,
-          t.name === "None" ? null : t.subName,
-        ]
-          .filter((v) => v != null)
-          .join("-")
-          .toLowerCase();
-        return {
-          label,
-          icon: t.icon,
-          to: `/apply/${to}?role=${role}`,
-          description: t.description,
-          role,
-        };
-      })
+      team()
+        .map((t) => {
+          let label: string;
+          let to: string;
+          if (t.name === "None" && t.subName) {
+            label = t.subName;
+            to = t.subName.toLowerCase().replace(/\s+/g, "-");
+          } else {
+            label = [t.name, t.subName].filter(Boolean).join(" - ");
+            to = [t.name, t.subName].filter(Boolean).join("-").toLowerCase().replace(/\s+/g, "-");
+          }
+          return {
+            label,
+            icon: t.icon,
+            to: `/apply/${to}?role=${role}`,
+            description: t.description,
+            role,
+            name: t.name,
+            subName: t.subName,
+          };
+        })
+        .filter((card) => {
+  const filterNameValue = filterName.value.trim().toLowerCase();
+  const filterSubNameValue = filterSubName.value.trim().toLowerCase();
+  //console.log(filterNameValue, filterSubNameValue);
+  // If both name and subName are set, match both exactly (must not be undefined)
+  if (filterName.value && filterSubName.value) {
+    return (
+      card.name &&
+      card.subName &&
+      card.name.toLowerCase() === filterNameValue &&
+      card.subName.toLowerCase() === filterSubNameValue
+    );
+  }
+  // If only name is set, match only card.name
+  if (filterName.value && filterName.value !== "none") {
+    return card.name && card.name.toLowerCase() === filterNameValue;
+  }
+  // If only subName is set, match only card.subName
+  if (filterSubName.value) {
+    return card.subName && card.subName.toLowerCase() === filterSubNameValue;
+  }
+  // Otherwise, show all
+  return true;
+})
     )
     .flat()
 );
+console.log(cards.value);
 </script>
 
 <template>
@@ -55,14 +82,15 @@ const cards = computed(() =>
           <UBadge color="neutral" class="self-start mt-2">{{
             card.role.charAt(0).toUpperCase() + card.role.slice(1)
           }}</UBadge>
-          <UButton
-            class="mt-2 self-start"
-            :to="card.to"
-            size="sm"
-            trailing-icon="i-lucide-arrow-right"
-          >
-            Đăng ký
-          </UButton>
+          <NuxtLink :to="card.to">
+            <UButton
+              class="mt-2 self-start"
+              size="sm"
+              trailing-icon="i-lucide-arrow-right"
+            >
+              Đăng ký
+            </UButton>
+          </NuxtLink>
         </div>
       </UCard>
     </div>

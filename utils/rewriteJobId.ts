@@ -1,6 +1,6 @@
 export default (jobId: string) => {
   switch (jobId) {
-    case "marketing":
+    case "marketing-and-economy":
       return "MaE";
     case "game":
       return "Game";
@@ -8,17 +8,17 @@ export default (jobId: string) => {
       return "CS-Web";
     case "cybersecurity-app":
       return "CS-App";
-    case "ai-ml":
+    case "ai-machine-learning":
       return "AI-ML";
-    case "ai-cv":
+    case "ai-computer-vision":
       return "AI-CV";
-    case "ai-nlp":
+    case "ai-natural-language-processing":
       return "AI-NLP";
     case "web-frontend":
       return "Web-Frontend";
     case "web-backend":
       return "Web-Backend";
-    case "web-ui_ux":
+    case "web-ui-ux":
       return "Web-UIUX";
     case "app-desktop":
       return "App-Desktop";

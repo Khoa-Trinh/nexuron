@@ -3,37 +3,37 @@ import { z } from "zod";
 import type { FormSubmitEvent } from "@nuxt/ui";
 
 const infoSchema = z.object({
-  fullname: z.string().min(1, { message: "Full name is required" }),
+  fullname: z.string().min(1, { message: "Họ và tên đầy đủ là bắt buộc" }),
 
   email: z
     .string()
-    .email({ message: "Invalid email address" })
+    .email({ message: "Địa chỉ email không hợp lệ" })
     .refine((e) => e.toLowerCase().endsWith("@ptnk.edu.vn"), {
-      message: "Email must be at ptnk.edu.vn",
+      message: "Email phải có đuôi @ptnk.edu.vn",
     }),
 
   phone: z.string().regex(/^0\d{7,14}$/, {
-    message: "Phone must start with 0 and contain only digits",
+    message: "Số điện thoại phải bắt đầu bằng 0 và chỉ chứa số",
   }),
 
   github: z
     .string()
     .url({ message: "Invalid URL" })
     .regex(/^https?:\/\/(www\.)?github\.com\/[A-Za-z0-9_.-]+\/?$/, {
-      message: "GitHub URL must be like https://github.com/username",
+      message: "Phải là một liên kết GitHub hợp lệ",
     }),
 
   facebook: z
     .string()
     .url({ message: "Invalid URL" })
     .regex(/^https?:\/\/(www\.)?facebook\.com\/[A-Za-z0-9_.-]+\/?$/, {
-      message: "Facebook URL must be like https://facebook.com/username",
+      message: "Phải là một liên kết Facebook hợp lệ",
     }),
 });
 
 const emailTokenSchema = z.object({
   token: z.string().regex(/^[0-9]{64}$/, {
-    message: "Token must be exactly 64 digits long",
+    message: "Mã xác thực phải là 64 chữ số",
   }),
 });
 
@@ -41,40 +41,40 @@ const detailSchema = z.object({
   plan_in_the_next_12_months: z
     .string()
     .min(50, {
-      message: "Plan in the next 12 months must be at least 50 characters",
+      message: "Kế hoạch trong 12 tháng tới phải có ít nhất 50 ký tự",
     })
     .max(200, {
-      message: "Plan in the next 12 months must be at most 200 characters",
+      message: "Kế hoạch trong 12 tháng tới tối đa chỉ được 200 ký tự",
     }),
   how_do_people_think_about_you: z
     .string()
     .min(50, {
-      message: "How do people think about you must be at least 50 characters",
+      message: "Mọi người nghĩ gì về bạn phải có ít nhất 50 ký tự",
     })
     .max(200, {
-      message: "How do people think about you must be at most 200 characters",
+      message: "Mọi người nghĩ gì về bạn tối đa chỉ được 200 ký tự",
     }),
   specialized_answer: z
     .string()
     .min(50, {
-      message: "Specialized answer must be at least 50 characters",
+      message: "Câu hỏi chuyên môn phải có ít nhất 50 ký tự",
     })
     .max(200, {
-      message: "Specialized answer must be at most 200 characters",
+      message: "Câu hỏi chuyên môn tối đa chỉ được 200 ký tự",
     }),
   portfolio_link: z
     .string()
     .url({ message: "Portfolio link must be a valid URL" })
     .regex(/^https:\/\/drive\.google\.com\/.+$/, {
       message:
-        "Portfolio link must be a Google Drive URL (https://drive.google.com/...)",
+        "Liên kết portfolio phải là một liên kết Google Drive (https://drive.google.com/...)",
     }),
   link_CV_resume: z
     .string()
     .url({ message: "CV link must be a valid URL" })
     .regex(/^https:\/\/drive\.google\.com\/.+$/, {
       message:
-        "CV link must be a Google Drive URL (https://drive.google.com/...)",
+        "Liên kết CV/Resume phải là một liên kết Google Drive (https://drive.google.com/...)",
     }),
 });
 
@@ -114,20 +114,20 @@ const infoState = reactive<Partial<Info>>({
 });
 
 const emailTokenState = reactive<Partial<EmailToken>>({
-  token: storedEmailToken.value.token ?? "",
+  token: storedEmailToken.value?.token ?? "",
 });
 
 const detailState = reactive<Record<string, Record<string, Partial<Detail>>>>({
   [jobId]: {
     [role]: {
       plan_in_the_next_12_months:
-        storedDetail.value[jobId][role]?.plan_in_the_next_12_months ?? "",
+        storedDetail.value.jobId?.role?.plan_in_the_next_12_months ?? "",
       how_do_people_think_about_you:
-        storedDetail.value[jobId][role]?.how_do_people_think_about_you ?? "",
+        storedDetail.value.jobId?.role?.how_do_people_think_about_you ?? "",
       specialized_answer:
-        storedDetail.value[jobId][role]?.specialized_answer ?? "",
-      portfolio_link: storedDetail.value[jobId][role]?.portfolio_link ?? "",
-      link_CV_resume: storedDetail.value[jobId][role]?.link_CV_resume ?? "",
+        storedDetail.value.jobId?.role?.specialized_answer ?? "",
+      portfolio_link: storedDetail.value.jobId?.role?.portfolio_link ?? "",
+      link_CV_resume: storedDetail.value.jobId?.role?.link_CV_resume ?? "",
     },
   },
 });
@@ -165,7 +165,7 @@ onMounted(() => {
     storedEmailToken.value = {};
   }
   isModalInfoOpen.value = !infoValid;
-  isModalEmailOpen.value = false;
+  isModalEmailOpen.value = !tokenValid && infoValid;
 });
 
 async function onInfoSubmit(event: FormSubmitEvent<Info>) {
@@ -176,18 +176,21 @@ async function onInfoSubmit(event: FormSubmitEvent<Info>) {
     });
 
     toast.add({
-      title: "Success",
-      description: "Info validation successful",
+      title: "Thành công",
+      description: "Xác thực thông tin cá nhân thành công",
       color: "success",
     });
 
     isModalInfoOpen.value = false;
     isModalEmailOpen.value = true;
-  } catch (err) {
+  } catch (err: any) {
+    // clear localStorage
+    storedForm.value = {};
+    storedEmailToken.value = {};
     toast.add({
-      title: "Error",
+      title: "Lỗi",
       description:
-        err instanceof Error && err.message ? err.message : "Validation failed",
+        err.data?.message ? err.data?.message : err.data?.data?.msg ? err.data?.data?.msg : err.message ? err.message : "Xác thực email thất bại",
       color: "error",
     });
   }
@@ -197,12 +200,11 @@ async function onEmailTokenSubmit(event: FormSubmitEvent<EmailToken>) {
   emailTokenState.token = event.data.token;
   isModalEmailOpen.value = false;
   toast.add({
-    title: "Success",
-    description: "Email token validation successful",
+    title: "Thành công",
+    description: "Xác thực email thành công",
     color: "success",
   });
 }
-
 async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
   try {
     await $fetch("/api/apply", {
@@ -217,18 +219,36 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
 
     toast.add({
       title: "Success",
-      description: "Application submitted successfully",
+      description: "Nộp đơn thành công",
       color: "success",
     });
 
     detailState[jobId][role] = {} as Detail;
-  } catch (err) {
-    toast.add({
-      title: "Error",
-      description:
-        err instanceof Error && err.message ? err.message : "Submission failed",
-      color: "error",
-    });
+  } catch (err: any) {
+    // Check for 400 and specific message
+    if (
+      err?.status === 400 &&
+      (err?.data?.data?.msg === "Invalid or already used verification code" ||
+        err?.message === "Invalid or already used verification code")
+    ) {
+      // Remove token and personal data from localStorage
+      storedForm.value = {};
+      storedEmailToken.value = {};
+      toast.add({
+        title: "Lỗi",
+        description:
+          "Mã xác thực không hợp lệ hoặc đã được sử dụng. Vui lòng nhập lại thông tin cá nhân và xác thực email.",
+        color: "error",
+      });
+      window.location.reload();
+    } else {
+      toast.add({
+        title: "Lỗi",
+        description:
+          err.data?.message ? err.data?.message : err.data?.data?.msg ? err.data?.data?.msg : err.message ? err.message : "Nộp đơn thất bại",
+        color: "error",
+      });
+    }
   }
 }
 </script>
@@ -238,7 +258,7 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
     <UModal
       v-model:open="isModalInfoOpen"
       :dismissible="false"
-      title="Entering your information before applying"
+      title="Nhập thông tin cá nhân trước khi nộp đơn"
       @update:open="
         () => {
           const result = infoSchema.safeParse(infoState);
@@ -256,9 +276,9 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <UFormField
               required
-              label="Fullname"
+              label="Họ tên"
               name="fullname"
-              help="Full name is required"
+              help="Nhập họ tên đầy đủ"
             >
               <UInput v-model="infoState.fullname" class="w-full" type="text" />
             </UFormField>
@@ -267,16 +287,16 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
               required
               label="Email"
               name="email"
-              help="Email must be in ptnk.edu.vn"
+              help="Đuôi của email phải là @ptnk.edu.vn"
             >
               <UInput v-model="infoState.email" class="w-full" type="email" />
             </UFormField>
 
             <UFormField
               required
-              label="Phone"
+              label="Số điện thoại"
               name="phone"
-              help="Phone number must start with 0 and contain only digits"
+              help="Số điện thoại phải bắt đầu bằng 0 và chỉ chứa số"
             >
               <UInput v-model="infoState.phone" class="w-full" type="tel" />
             </UFormField>
@@ -285,7 +305,7 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
               required
               label="GitHub"
               name="github"
-              help="Please enter a valid GitHub link"
+              help="Vui lòng nhập một liên kết GitHub hợp lệ"
             >
               <UInput v-model="infoState.github" class="w-full" type="url" />
             </UFormField>
@@ -294,23 +314,23 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
               required
               label="Facebook"
               name="facebook"
-              help="Please enter a valid Facebook link"
+              help="Vui lòng nhập một liên kết Facebook hợp lệ"
             >
               <UInput v-model="infoState.facebook" class="w-full" type="url" />
             </UFormField>
           </div>
-          <UButton type="submit"> Submit </UButton>
+          <UButton type="submit"> Nộp đơn </UButton>
         </UForm>
       </template>
     </UModal>
     <UModal
       v-model:open="isModalEmailOpen"
       :dismissible="false"
-      title="Enter your email validation code"
+      title="Nhập mã xác thực đã gửi đến email của bạn"
       @update:open="
         () => {
-          const result = infoSchema.safeParse(infoState);
-          isModalInfoOpen = !result.success;
+          const result = emailTokenSchema.safeParse(emailTokenState);
+          isModalEmailOpen = !result.success;
         }
       "
     >
@@ -323,10 +343,10 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
         >
           <UFormField
             required
-            label="Token (64 digits long)"
+            label="Mã xác thực"
             name="token"
             class="w-full"
-            help="Please enter the token you received in your email"
+            help="Vui lòng nhập mã xác thực đã gửi đến email của bạn"
           >
             <UInput
               v-model="emailTokenState.token"
@@ -334,7 +354,7 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
               type="text"
             />
           </UFormField>
-          <UButton type="submit"> Submit </UButton>
+          <UButton type="submit"> Xác minh </UButton>
         </UForm>
       </template>
     </UModal>
@@ -419,7 +439,7 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
                 required
                 label="Kế hoạch trong 12 tháng tới"
                 name="plan_in_the_next_12_months"
-                help="Please write at least 50 characters and at most 200 characters"
+                help="Vui lòng viết ít nhất 50 ký tự và tối đa 200 ký tự"
               >
                 <UTextarea
                   v-model="detailState[jobId][role].plan_in_the_next_12_months"
@@ -432,7 +452,7 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
                 required
                 label="Mọi người nghĩ gì về bạn"
                 name="how_do_people_think_about_you"
-                help="Please write at least 50 characters and at most 200 characters"
+                help="Vui lòng viết ít nhất 50 ký tự và tối đa 200 ký tự"
               >
                 <UTextarea
                   v-model="
@@ -447,7 +467,7 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
                 required
                 label="Câu hỏi chuyên môn"
                 name="specialized_answer"
-                help="Please write at least 50 characters and at most 200 characters"
+                help="Vui lòng viết ít nhất 50 ký tự và tối đa 200 ký tự"
               >
                 <UTextarea
                   v-model="detailState[jobId][role].specialized_answer"
@@ -460,7 +480,7 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
                 required
                 label="Link portfolio"
                 name="portfolio_link"
-                help="Please enter a valid Google Drive link"
+                help="Vui lòng nhập một liên kết Google Drive hợp lệ"
               >
                 <UInput
                   v-model="detailState[jobId][role].portfolio_link"
@@ -473,7 +493,7 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
                 required
                 label="Link CV/Resume"
                 name="link_CV_resume"
-                help="Please enter a valid Google Drive link"
+                help="Vui lòng nhập một liên kết Google Drive hợp lệ"
               >
                 <UInput
                   v-model="detailState[jobId][role].link_CV_resume"
@@ -482,7 +502,7 @@ async function onDetailSubmit(event: FormSubmitEvent<Detail>) {
                 />
               </UFormField>
             </div>
-            <UButton type="submit"> Submit </UButton>
+            <UButton type="submit"> Nộp đơn </UButton>
           </UForm>
         </div>
       </div>
