@@ -1,16 +1,13 @@
 <script lang="ts" setup>
-const props = defineProps({
-  class: {
-    type: String,
-    default: "",
-  },
-});
+interface Props {
+  class?: string;
+}
+
+const props = defineProps<Props>();
 </script>
 
 <template>
-  <div :class="props.class" class="flex items-center h-10 text-2xl italic">
-    Logo
-  </div>
+  <NuxtLink to="/" :class="props.class" class="flex items-center h-10">
+    <UIcon name="i-custom-logo" class="text-highlighted size-[100rem]" />
+  </NuxtLink>
 </template>
-
-<style></style>
