@@ -36,7 +36,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -46,7 +46,7 @@ export default (jobId: string, role: string) => {
                   "Có kiến thức cơ bản về marketing, truyền thông hoặc kinh tế.",
                   "Có kinh nghiệm quản lý hoặc phát triển các kênh mạng xã hội (Facebook, Instagram, Tiktok, v.v.)",
                   "Biết sử dụng các công cụ thiết kế (Canva, Photoshop, v.v.)",
-                  "Ưu tiên ứng viên từng tham gia các dự án truyền thông, marketing hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng tham gia các dự án truyền thông, marketing hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -92,7 +92,7 @@ export default (jobId: string, role: string) => {
                   "Quản lý, phân công và giám sát công việc của các thành viên trong ban.",
                   "Đánh giá hiệu quả các chiến dịch marketing, tổng hợp và báo cáo kết quả cho Trưởng ban.",
                   "Đào tạo, hướng dẫn các thành viên mới về kỹ năng marketing, truyền thông.",
-                  "Hỗ trợ giải quyết các vấn đề phát sinh trong quá trình triển khai công việc của ban."
+                  "Hỗ trợ giải quyết các vấn đề phát sinh trong quá trình triển khai công việc của ban.",
                 ],
                 isQuestion: false,
               },
@@ -108,7 +108,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -166,7 +166,7 @@ export default (jobId: string, role: string) => {
                   "Đại diện ban làm việc với các bộ phận khác trong tổ chức.",
                   "Giải quyết các vấn đề phát sinh, đảm bảo các hoạt động marketing diễn ra hiệu quả và đúng tiến độ.",
                   "Đánh giá, cải tiến quy trình làm việc và đề xuất các giải pháp đổi mới sáng tạo cho ban.",
-                  "Đào tạo, truyền cảm hứng và phát triển năng lực cho các thành viên trong ban."
+                  "Đào tạo, truyền cảm hứng và phát triển năng lực cho các thành viên trong ban.",
                 ],
                 isQuestion: false,
               },
@@ -182,7 +182,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -192,7 +192,7 @@ export default (jobId: string, role: string) => {
                   "Có kiến thức chuyên sâu về marketing, truyền thông, kinh tế và quản trị thương hiệu.",
                   "Có kỹ năng lãnh đạo, quản lý đội nhóm và đào tạo phát triển nhân sự.",
                   "Thành thạo lập kế hoạch chiến lược, phân tích thị trường và đánh giá hiệu quả hoạt động marketing.",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án truyền thông, marketing hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án truyền thông, marketing hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -211,7 +211,7 @@ export default (jobId: string, role: string) => {
                 description: [
                   "Bạn có thể chia sẻ một chiến dịch marketing mà bạn đã thực hiện thành công không?",
                   "Trường hợp thành viên có mâu thuẫn & việc đột xuất, không thể theo kịp tiến độ, bạn sẽ làm gì?",
-                  "Nếu bạn có một ý tưởng marketing nhưng không được sự đồng thuận của các thành viên trong ban, bạn sẽ làm gì?"
+                  "Nếu bạn có một ý tưởng marketing nhưng không được sự đồng thuận của các thành viên trong ban, bạn sẽ làm gì?",
                 ],
                 isQuestion: true,
               },
@@ -219,6 +219,12 @@ export default (jobId: string, role: string) => {
             function: "Marketing",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "game":
@@ -242,7 +248,7 @@ export default (jobId: string, role: string) => {
                   "Tham gia phát triển các sản phẩm game, từ giai đoạn ý tưởng đến hoàn thiện.",
                   "Thiết kế, chỉnh sửa và tích hợp các tài nguyên game (hình ảnh, âm thanh, hiệu ứng...).",
                   "Kiểm thử, sửa lỗi và tối ưu hiệu năng cho sản phẩm game.",
-                  "Viết tài liệu hướng dẫn sử dụng, tài liệu kỹ thuật cho game."
+                  "Viết tài liệu hướng dẫn sử dụng, tài liệu kỹ thuật cho game.",
                 ],
                 isQuestion: false,
               },
@@ -258,7 +264,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -270,7 +276,7 @@ export default (jobId: string, role: string) => {
                   "Hiểu biết về các nguyên lý thiết kế gameplay, kịch bản, cân bằng game.",
                   "Có khả năng làm việc nhóm, phối hợp với các thành viên khác (lập trình, thiết kế, âm thanh...).",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng tham gia các dự án game hoặc có sản phẩm game cá nhân."
+                  "Ưu tiên ứng viên từng tham gia các dự án game hoặc có sản phẩm game cá nhân.",
                 ],
                 isQuestion: false,
               },
@@ -315,7 +321,7 @@ export default (jobId: string, role: string) => {
                   "Quản lý, phân công và giám sát tiến độ công việc của các thành viên trong ban.",
                   "Tham gia trực tiếp vào quá trình phát triển, kiểm thử và tối ưu game.",
                   "Đào tạo, hướng dẫn các thành viên mới về quy trình phát triển game, công nghệ và công cụ sử dụng trong dự án.",
-                  "Báo cáo tiến độ, kết quả công việc cho Trưởng ban và đề xuất các phương án xử lý khi có vấn đề phát sinh."
+                  "Báo cáo tiến độ, kết quả công việc cho Trưởng ban và đề xuất các phương án xử lý khi có vấn đề phát sinh.",
                 ],
                 isQuestion: false,
               },
@@ -331,7 +337,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -344,7 +350,7 @@ export default (jobId: string, role: string) => {
                   "Có kỹ năng quản lý nhóm, phân công và giám sát tiến độ công việc.",
                   "Biết sử dụng github",
                   "Có khả năng đào tạo, hướng dẫn thành viên mới về quy trình, công nghệ và công cụ phát triển game.",
-                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án game hoặc có sản phẩm game cá nhân."
+                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án game hoặc có sản phẩm game cá nhân.",
                 ],
                 isQuestion: false,
               },
@@ -391,7 +397,7 @@ export default (jobId: string, role: string) => {
                   "Đại diện ban làm việc với các bộ phận khác trong tổ chức.",
                   "Giải quyết các vấn đề phát sinh, đảm bảo các hoạt động phát triển game diễn ra hiệu quả và đúng tiến độ.",
                   "Đào tạo, truyền cảm hứng và phát triển năng lực cho các thành viên trong ban.",
-                  "Đánh giá, cải tiến quy trình làm việc và đề xuất các giải pháp đổi mới sáng tạo cho ban."
+                  "Đánh giá, cải tiến quy trình làm việc và đề xuất các giải pháp đổi mới sáng tạo cho ban.",
                 ],
                 isQuestion: false,
               },
@@ -407,7 +413,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -421,7 +427,7 @@ export default (jobId: string, role: string) => {
                   "Có kỹ năng lãnh đạo, quản lý đội nhóm và đào tạo phát triển nhân sự trong lĩnh vực game.",
                   "Có khả năng xây dựng chiến lược phát triển sản phẩm, phân tích thị trường và đánh giá hiệu quả dự án game.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án game hoặc có sản phẩm game cá nhân."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án game hoặc có sản phẩm game cá nhân.",
                 ],
                 isQuestion: false,
               },
@@ -448,6 +454,12 @@ export default (jobId: string, role: string) => {
             ],
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "cybersecurity-web":
@@ -472,7 +484,7 @@ export default (jobId: string, role: string) => {
                   "Đề xuất và triển khai các biện pháp bảo mật cho hệ thống website, API.",
                   "Kiểm tra, đánh giá mức độ an toàn của các thành phần web (frontend, backend, API).",
                   "Tham gia vào các cuộc thi bảo mật, viết blog",
-                  "Cập nhật kiến thức về các lỗ hổng, xu hướng tấn công và công nghệ bảo mật mới."
+                  "Cập nhật kiến thức về các lỗ hổng, xu hướng tấn công và công nghệ bảo mật mới.",
                 ],
                 isQuestion: false,
               },
@@ -488,7 +500,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -501,7 +513,7 @@ export default (jobId: string, role: string) => {
                   "Hiểu về nguyên lý hoạt động của HTTP, cookies, session, authentication.",
                   "Có khả năng cập nhật kiến thức về các xu hướng tấn công và công nghệ bảo mật mới.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng tham gia các cuộc thi CTF, viết blog bảo mật hoặc có sản phẩm thực tế liên quan đến bảo mật web."
+                  "Ưu tiên ứng viên từng tham gia các cuộc thi CTF, viết blog bảo mật hoặc có sản phẩm thực tế liên quan đến bảo mật web.",
                 ],
                 isQuestion: false,
               },
@@ -519,7 +531,7 @@ export default (jobId: string, role: string) => {
                 title: "Câu hỏi chuyên môn",
                 description: [
                   "Find the flag. nexrctf_xxxxxxxxxxxpaddingpadding",
-                  "Hint: mail, code, shift, ord, digit, char, you. You will see it, everyday. (Vui lòng viết báo cáo vào hackmd và gửi link)"
+                  "Hint: mail, code, shift, ord, digit, char, you. You will see it, everyday. (Vui lòng viết báo cáo vào hackmd và gửi link)",
                 ],
                 isQuestion: true,
               },
@@ -549,7 +561,6 @@ export default (jobId: string, role: string) => {
                   "Đào tạo, hướng dẫn các thành viên mới về quy trình kiểm thử, các công cụ và kỹ thuật bảo mật web.",
                   "Tham gia vào các cuộc thi bảo mật, viết blog",
                   "Cập nhật kiến thức về các lỗ hổng, xu hướng tấn công và công nghệ bảo mật mới.",
-
                 ],
                 isQuestion: false,
               },
@@ -565,7 +576,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -580,7 +591,7 @@ export default (jobId: string, role: string) => {
                   "Biết sử dụng github",
                   "Có khả năng đào tạo, hướng dẫn thành viên mới về quy trình kiểm thử, công cụ và kỹ thuật bảo mật web.",
                   "Có khả năng cập nhật kiến thức về các xu hướng tấn công và công nghệ bảo mật mới.",
-                  "Ưu tiên ứng viên từng tham gia các cuộc thi CTF, viết blog bảo mật hoặc có sản phẩm thực tế liên quan đến bảo mật web."
+                  "Ưu tiên ứng viên từng tham gia các cuộc thi CTF, viết blog bảo mật hoặc có sản phẩm thực tế liên quan đến bảo mật web.",
                 ],
                 isQuestion: false,
               },
@@ -598,7 +609,7 @@ export default (jobId: string, role: string) => {
                 title: "Câu hỏi chuyên môn",
                 description: [
                   "Find the flag. nexrctf_xxxxxxxxxxxpaddingpadding",
-                  "Hint: mail, code, shift, ord, digit, char, you. You will see it, everyday. (Vui lòng viết báo cáo vào hackmd và gửi link)"
+                  "Hint: mail, code, shift, ord, digit, char, you. You will see it, everyday. (Vui lòng viết báo cáo vào hackmd và gửi link)",
                 ],
                 isQuestion: true,
               },
@@ -645,7 +656,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -677,7 +688,7 @@ export default (jobId: string, role: string) => {
                 title: "Câu hỏi chuyên môn",
                 description: [
                   "Find the flag. nexrctf_xxxxxxxxxxxpaddingpadding",
-                  "Hint: mail, code, shift, ord, digit, char. You will see it, everyday. (Vui lòng viết báo cáo vào hackmd và gửi link)"
+                  "Hint: mail, code, shift, ord, digit, char. You will see it, everyday. (Vui lòng viết báo cáo vào hackmd và gửi link)",
                 ],
                 isQuestion: true,
               },
@@ -685,6 +696,12 @@ export default (jobId: string, role: string) => {
             function: "Cybersecurity",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "cybersecurity-app":
@@ -707,7 +724,7 @@ export default (jobId: string, role: string) => {
                   "Đề xuất và triển khai các biện pháp bảo mật cho ứng dụng",
                   "Kiểm thử, đánh giá mức độ an toàn của các ứng dụng trước khi phát hành.",
                   "Cập nhật kiến thức về các lỗ hổng, xu hướng tấn công và công nghệ bảo mật mới.",
-                  "Tham gia các cuộc thi bảo mật, viết blog chia sẻ kiến thức (nếu có khả năng)."
+                  "Tham gia các cuộc thi bảo mật, viết blog chia sẻ kiến thức (nếu có khả năng).",
                 ],
                 isQuestion: false,
               },
@@ -723,7 +740,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -737,7 +754,7 @@ export default (jobId: string, role: string) => {
                   "Hiểu về nguyên lý hoạt động của các giao thức bảo mật (HTTPS, SSL/TLS).",
                   "Có khả năng cập nhật kiến thức về các xu hướng tấn công và công nghệ bảo mật mới.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng tham gia các cuộc thi CTF, viết blog bảo mật hoặc có sản phẩm thực tế liên quan đến bảo mật ứng dụng."
+                  "Ưu tiên ứng viên từng tham gia các cuộc thi CTF, viết blog bảo mật hoặc có sản phẩm thực tế liên quan đến bảo mật ứng dụng.",
                 ],
                 isQuestion: false,
               },
@@ -785,7 +802,6 @@ export default (jobId: string, role: string) => {
                   "Cập nhật kiến thức về các lỗ hổng, xu hướng tấn công và công nghệ bảo mật mới.",
                   "Tham gia các cuộc thi bảo mật, viết blog chia sẻ kiến thức (nếu có khả năng).",
                   "Báo cáo tiến độ, kết quả công việc cho Trưởng ban và đề xuất các giải pháp khi có vấn đề phát sinh.",
-
                 ],
                 isQuestion: false,
               },
@@ -801,7 +817,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -816,7 +832,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng thiết kế và triển khai quy trình kiểm thử bảo mật cho ứng dụng.",
                   "Có kỹ năng lãnh đạo, quản lý đội nhóm và đào tạo phát triển nhân sự trong lĩnh vực bảo mật ứng dụng.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng tham gia các cuộc thi CTF, viết blog bảo mật hoặc có sản phẩm thực tế liên quan đến bảo mật ứng dụng."
+                  "Ưu tiên ứng viên từng tham gia các cuộc thi CTF, viết blog bảo mật hoặc có sản phẩm thực tế liên quan đến bảo mật ứng dụng.",
                 ],
                 isQuestion: false,
               },
@@ -880,7 +896,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -895,7 +911,7 @@ export default (jobId: string, role: string) => {
                   "Có kỹ năng lãnh đạo, quản lý đội nhóm và đào tạo phát triển nhân sự trong lĩnh vực bảo mật ứng dụng.",
                   "Có khả năng xây dựng chiến lược phát triển sản phẩm, phân tích thị trường và đánh giá hiệu quả dự án bảo mật ứng dụng.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng tham gia các cuộc thi CTF, viết blog bảo mật hoặc có sản phẩm thực tế liên quan đến bảo mật ứng dụng."
+                  "Ưu tiên ứng viên từng tham gia các cuộc thi CTF, viết blog bảo mật hoặc có sản phẩm thực tế liên quan đến bảo mật ứng dụng.",
                 ],
                 isQuestion: false,
               },
@@ -921,6 +937,12 @@ export default (jobId: string, role: string) => {
             function: "Cybersecurity",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "ai-machine-learning":
@@ -933,7 +955,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban AI - Machine Learning",
                 description: [
-                  "Với vai trò là thành viên Ban AI - Machine Learning, bạn sẽ tham gia nghiên cứu, phát triển và ứng dụng các thuật toán học máy mới vào các dự án thực tế."
+                  "Với vai trò là thành viên Ban AI - Machine Learning, bạn sẽ tham gia nghiên cứu, phát triển và ứng dụng các thuật toán học máy mới vào các dự án thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -960,7 +982,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1007,7 +1029,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban AI - Machine Learning",
                 description: [
-                  "Với vai trò là thành viên Ban AI - Machine Learning, bạn sẽ tham gia nghiên cứu, phát triển và ứng dụng các thuật toán học máy mới vào các dự án thực tế."
+                  "Với vai trò là thành viên Ban AI - Machine Learning, bạn sẽ tham gia nghiên cứu, phát triển và ứng dụng các thuật toán học máy mới vào các dự án thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -1036,7 +1058,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1051,7 +1073,7 @@ export default (jobId: string, role: string) => {
                   "Có kinh nghiệm quản lý nhóm và phân công công việc trong lĩnh vực AI/ML.",
                   "Có khả năng thiết kế và triển khai quy trình phát triển sản phẩm AI/ML.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng tham gia các dự án AI/ML hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng tham gia các dự án AI/ML hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -1084,7 +1106,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban AI - Machine Learning",
                 description: [
-                  "Với vai trò là thành viên Ban AI - Machine Learning, bạn sẽ tham gia nghiên cứu, phát triển và ứng dụng các thuật toán học máy mới vào các dự án thực tế."
+                  "Với vai trò là thành viên Ban AI - Machine Learning, bạn sẽ tham gia nghiên cứu, phát triển và ứng dụng các thuật toán học máy mới vào các dự án thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -1114,7 +1136,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1156,6 +1178,12 @@ export default (jobId: string, role: string) => {
             function: "AI",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "ai-computer-vision":
@@ -1195,7 +1223,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1206,7 +1234,7 @@ export default (jobId: string, role: string) => {
                   "Biết sử dụng ít nhất một framework AI/ML phổ biến (OpenCV, TensorFlow, PyTorch, v.v.).",
                   "Có khả năng lập trình Python hoặc một ngôn ngữ phù hợp cho AI/ML.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng tham gia các dự án AI/Computer Vision hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng tham gia các dự án AI/Computer Vision hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -1269,7 +1297,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1282,7 +1310,7 @@ export default (jobId: string, role: string) => {
                   "Có kỹ năng quản lý nhóm, phân công và giám sát tiến độ công việc.",
                   "Có khả năng đào tạo, hướng dẫn thành viên mới về quy trình, công nghệ và công cụ computer vision.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án AI/Computer Vision."
+                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án AI/Computer Vision.",
                 ],
                 isQuestion: false,
               },
@@ -1346,7 +1374,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1359,7 +1387,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng thiết kế và triển khai quy trình phát triển sản phẩm computer vision.",
                   "Có kỹ năng lãnh đạo, quản lý đội nhóm và đào tạo phát triển nhân sự trong lĩnh vực computer vision.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án AI/Computer Vision hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án AI/Computer Vision hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -1385,6 +1413,12 @@ export default (jobId: string, role: string) => {
             function: "AI",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "ai-natural-language-processing":
@@ -1397,7 +1431,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban AI - Natural Language Processing",
                 description: [
-                  "Với vai trò là thành viên Ban AI - Natural Language Processing, bạn sẽ tham gia thiết kế các mô hình xử lý ngôn ngữ tự nhiên nhằm hiểu và phân tích văn bản, đồng thời phát triển các giải pháp AI ứng dụng trong lĩnh vực xử lý ngôn ngữ."
+                  "Với vai trò là thành viên Ban AI - Natural Language Processing, bạn sẽ tham gia thiết kế các mô hình xử lý ngôn ngữ tự nhiên nhằm hiểu và phân tích văn bản, đồng thời phát triển các giải pháp AI ứng dụng trong lĩnh vực xử lý ngôn ngữ.",
                 ],
                 isQuestion: false,
               },
@@ -1423,7 +1457,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1434,7 +1468,7 @@ export default (jobId: string, role: string) => {
                   "Biết sử dụng ít nhất một framework NLP phổ biến (NLTK, spaCy, HuggingFace Transformers, v.v.).",
                   "Có khả năng lập trình Python hoặc một ngôn ngữ phù hợp cho NLP.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng tham gia các dự án AI/NLP hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng tham gia các dự án AI/NLP hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -1469,7 +1503,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban AI - Natural Language Processing",
                 description: [
-                  "Với vai trò là thành viên Ban AI - Natural Language Processing, bạn sẽ tham gia thiết kế các mô hình xử lý ngôn ngữ tự nhiên nhằm hiểu và phân tích văn bản, đồng thời phát triển các giải pháp AI ứng dụng trong lĩnh vực xử lý ngôn ngữ."
+                  "Với vai trò là thành viên Ban AI - Natural Language Processing, bạn sẽ tham gia thiết kế các mô hình xử lý ngôn ngữ tự nhiên nhằm hiểu và phân tích văn bản, đồng thời phát triển các giải pháp AI ứng dụng trong lĩnh vực xử lý ngôn ngữ.",
                 ],
                 isQuestion: false,
               },
@@ -1498,7 +1532,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1511,7 +1545,7 @@ export default (jobId: string, role: string) => {
                   "Có kỹ năng quản lý nhóm, phân công và giám sát tiến độ công việc.",
                   "Có khả năng đào tạo, hướng dẫn thành viên mới về quy trình, công nghệ và công cụ NLP.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án AI/NLP."
+                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án AI/NLP.",
                 ],
                 isQuestion: false,
               },
@@ -1546,7 +1580,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban AI - Natural Language Processing",
                 description: [
-                  "Với vai trò là thành viên Ban AI - Natural Language Processing, bạn sẽ tham gia thiết kế các mô hình xử lý ngôn ngữ tự nhiên nhằm hiểu và phân tích văn bản, đồng thời phát triển các giải pháp AI ứng dụng trong lĩnh vực xử lý ngôn ngữ."
+                  "Với vai trò là thành viên Ban AI - Natural Language Processing, bạn sẽ tham gia thiết kế các mô hình xử lý ngôn ngữ tự nhiên nhằm hiểu và phân tích văn bản, đồng thời phát triển các giải pháp AI ứng dụng trong lĩnh vực xử lý ngôn ngữ.",
                 ],
                 isQuestion: false,
               },
@@ -1576,7 +1610,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1589,7 +1623,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng thiết kế và triển khai quy trình phát triển sản phẩm NLP.",
                   "Có kỹ năng lãnh đạo, quản lý đội nhóm và đào tạo phát triển nhân sự trong lĩnh vực NLP.",
                   "Biết sử dụng github",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án AI/NLP hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án AI/NLP hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -1616,6 +1650,12 @@ export default (jobId: string, role: string) => {
             function: "AI",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "web-frontend":
@@ -1655,7 +1695,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1667,7 +1707,7 @@ export default (jobId: string, role: string) => {
                   "Hiểu về responsive design và accessibility.",
                   "Có khả năng làm việc với các công cụ quản lý mã nguồn (Git, GitHub).",
                   "Có khả năng làm việc nhóm và giao tiếp hiệu quả.",
-                  "Ưu tiên ứng viên từng tham gia các dự án web hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng tham gia các dự án web hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -1731,7 +1771,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1744,7 +1784,7 @@ export default (jobId: string, role: string) => {
                   "Có kỹ năng quản lý nhóm, phân công và giám sát tiến độ công việc.",
                   "Có khả năng đào tạo, hướng dẫn thành viên mới về quy trình, công nghệ và công cụ frontend.",
                   "Có khả năng làm việc với các công cụ quản lý mã nguồn (Git, GitHub).",
-                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án web."
+                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án web.",
                 ],
                 isQuestion: false,
               },
@@ -1809,7 +1849,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1821,7 +1861,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng thiết kế và triển khai quy trình phát triển giao diện web.",
                   "Có kỹ năng lãnh đạo, quản lý đội nhóm và đào tạo phát triển nhân sự trong lĩnh vực frontend.",
                   "Có khả năng làm việc với các công cụ quản lý mã nguồn (Git, GitHub).",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án web hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án web hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -1847,6 +1887,12 @@ export default (jobId: string, role: string) => {
             function: "Web",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "web-backend":
@@ -1859,7 +1905,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Website - Backend",
                 description: [
-                    "Với vai trò là thành viên Ban Website - Backend, bạn sẽ chịu trách nhiệm xây dựng các API, cơ sở dữ liệu và logic phía máy chủ có khả năng mở rộng, đảm bảo hiệu suất và độ tin cậy cho hệ thống.",
+                  "Với vai trò là thành viên Ban Website - Backend, bạn sẽ chịu trách nhiệm xây dựng các API, cơ sở dữ liệu và logic phía máy chủ có khả năng mở rộng, đảm bảo hiệu suất và độ tin cậy cho hệ thống.",
                 ],
                 isQuestion: false,
               },
@@ -1886,7 +1932,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1899,7 +1945,7 @@ export default (jobId: string, role: string) => {
                   "Có kiến thức về cơ sở dữ liệu (SQL, NoSQL) và cách tối ưu hóa truy vấn.",
                   "Có khả năng làm việc với các công cụ quản lý mã nguồn (Git, GitHub).",
                   "Có khả năng làm việc nhóm và giao tiếp hiệu quả.",
-                  "Ưu tiên ứng viên từng tham gia các dự án backend hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng tham gia các dự án backend hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -1934,7 +1980,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Website - Backend",
                 description: [
-                    "Với vai trò là thành viên Ban Website - Backend, bạn sẽ chịu trách nhiệm xây dựng các API, cơ sở dữ liệu và logic phía máy chủ có khả năng mở rộng, đảm bảo hiệu suất và độ tin cậy cho hệ thống.",
+                  "Với vai trò là thành viên Ban Website - Backend, bạn sẽ chịu trách nhiệm xây dựng các API, cơ sở dữ liệu và logic phía máy chủ có khả năng mở rộng, đảm bảo hiệu suất và độ tin cậy cho hệ thống.",
                 ],
                 isQuestion: false,
               },
@@ -1948,7 +1994,6 @@ export default (jobId: string, role: string) => {
                   "Báo cáo tiến độ, kết quả công việc cho Trưởng ban và đề xuất giải pháp khi có vấn đề phát sinh.",
                   "Cập nhật kiến thức về các công nghệ, xu hướng mới trong lĩnh vực backend.",
                   "Tham gia các cuộc thi Tin học trẻ, v.v",
-
                 ],
                 isQuestion: false,
               },
@@ -1964,7 +2009,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -1979,7 +2024,7 @@ export default (jobId: string, role: string) => {
                   "Có kỹ năng quản lý nhóm, phân công và giám sát tiến độ công việc.",
                   "Có khả năng đào tạo, hướng dẫn thành viên mới về quy trình, công nghệ và công cụ backend.",
                   "Có khả năng làm việc với các công cụ quản lý mã nguồn (Git, GitHub).",
-                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án backend."
+                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các dự án backend.",
                 ],
                 isQuestion: false,
               },
@@ -2014,7 +2059,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Website - Backend",
                 description: [
-                    "Với vai trò là thành viên Ban Website - Backend, bạn sẽ chịu trách nhiệm xây dựng các API, cơ sở dữ liệu và logic phía máy chủ có khả năng mở rộng, đảm bảo hiệu suất và độ tin cậy cho hệ thống.",
+                  "Với vai trò là thành viên Ban Website - Backend, bạn sẽ chịu trách nhiệm xây dựng các API, cơ sở dữ liệu và logic phía máy chủ có khả năng mở rộng, đảm bảo hiệu suất và độ tin cậy cho hệ thống.",
                 ],
                 isQuestion: false,
               },
@@ -2044,7 +2089,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2058,7 +2103,7 @@ export default (jobId: string, role: string) => {
                   "Có kỹ năng lãnh đạo, quản lý đội nhóm và đào tạo phát triển nhân sự trong lĩnh vực backend.",
                   "Có khả năng làm việc với các công cụ quản lý mã nguồn (Git, GitHub).",
                   "Có khả năng làm việc nhóm và giao tiếp hiệu quả.",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án backend hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án backend hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -2085,6 +2130,12 @@ export default (jobId: string, role: string) => {
             function: "Web",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "web-ui-ux":
@@ -2124,7 +2175,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2197,7 +2248,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2272,7 +2323,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2284,7 +2335,7 @@ export default (jobId: string, role: string) => {
                   "Có kinh nghiệm xây dựng, quản lý và triển khai các dự án UI/UX thực tế.",
                   "Có khả năng thiết kế giao diện trực quan và dễ sử dụng cho các ứng dụng web.",
                   "Có khả năng làm việc nhóm và giao tiếp hiệu quả.",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án UI/UX hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án UI/UX hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -2310,6 +2361,12 @@ export default (jobId: string, role: string) => {
             function: "Web",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "app-desktop":
@@ -2350,7 +2407,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2425,7 +2482,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2501,7 +2558,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2513,7 +2570,7 @@ export default (jobId: string, role: string) => {
                   "Có kinh nghiệm xây dựng, quản lý và triển khai các dự án ứng dụng desktop thực tế.",
                   "Có khả năng thiết kế giao diện người dùng cho ứng dụng desktop.",
                   "Biết sử dụng github và các công cụ quản lý mã nguồn.",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án ứng dụng desktop hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án ứng dụng desktop hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -2540,6 +2597,12 @@ export default (jobId: string, role: string) => {
             function: "App",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "app-embedded":
@@ -2579,7 +2642,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2610,7 +2673,7 @@ export default (jobId: string, role: string) => {
                 description: [
                   "Trình bày quy trình tối ưu hóa bộ nhớ và hiệu năng cho một hệ thống nhúng sử dụng vi điều khiển có tài nguyên hạn chế (RAM/Flash nhỏ). Bạn sẽ áp dụng những kỹ thuật nào và tại sao?",
                   "Trình bày cách bạn thiết kế và lập trình một hệ thống điều khiển robot tự động tránh vật cản sử dụng cảm biến siêu âm hoặc hồng ngoại. Bạn sẽ lựa chọn thuật toán nào và vì sao?",
-                  "Khi phát triển phần mềm cho robot di động đa cảm biến (IMU, encoder, camera), làm thế nào để đồng bộ dữ liệu cảm biến và xử lý tín hiệu trong thời gian thực? Hãy nêu các thách thức và giải pháp."
+                  "Khi phát triển phần mềm cho robot di động đa cảm biến (IMU, encoder, camera), làm thế nào để đồng bộ dữ liệu cảm biến và xử lý tín hiệu trong thời gian thực? Hãy nêu các thách thức và giải pháp.",
                 ],
                 isQuestion: true,
               },
@@ -2655,7 +2718,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2686,7 +2749,7 @@ export default (jobId: string, role: string) => {
                 description: [
                   "Trình bày quy trình tối ưu hóa bộ nhớ và hiệu năng cho một hệ thống nhúng sử dụng vi điều khiển có tài nguyên hạn chế (RAM/Flash nhỏ). Bạn sẽ áp dụng những kỹ thuật nào và tại sao?",
                   "Trình bày cách bạn thiết kế và lập trình một hệ thống điều khiển robot tự động tránh vật cản sử dụng cảm biến siêu âm hoặc hồng ngoại. Bạn sẽ lựa chọn thuật toán nào và vì sao?",
-                  "Khi phát triển phần mềm cho robot di động đa cảm biến (IMU, encoder, camera), làm thế nào để đồng bộ dữ liệu cảm biến và xử lý tín hiệu trong thời gian thực? Hãy nêu các thách thức và giải pháp."
+                  "Khi phát triển phần mềm cho robot di động đa cảm biến (IMU, encoder, camera), làm thế nào để đồng bộ dữ liệu cảm biến và xử lý tín hiệu trong thời gian thực? Hãy nêu các thách thức và giải pháp.",
                 ],
                 isQuestion: true,
               },
@@ -2732,7 +2795,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2745,7 +2808,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng thiết kế và lập trình firmware cho các vi điều khiển.",
                   "Có kinh nghiệm làm việc với các giao thức giao tiếp ngoại vi (UART, SPI, I2C, PWM, ADC, v.v.).",
                   "Biết sử dụng github và các công cụ quản lý mã nguồn.",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án ứng dụng nhúng hoặc có sản phẩm thực tế."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các dự án ứng dụng nhúng hoặc có sản phẩm thực tế.",
                 ],
                 isQuestion: false,
               },
@@ -2764,7 +2827,7 @@ export default (jobId: string, role: string) => {
                 description: [
                   "Trình bày quy trình tối ưu hóa bộ nhớ và hiệu năng cho một hệ thống nhúng sử dụng vi điều khiển có tài nguyên hạn chế (RAM/Flash nhỏ). Bạn sẽ áp dụng những kỹ thuật nào và tại sao?",
                   "Trình bày cách bạn thiết kế và lập trình một hệ thống điều khiển robot tự động tránh vật cản sử dụng cảm biến siêu âm hoặc hồng ngoại. Bạn sẽ lựa chọn thuật toán nào và vì sao?",
-                  "Khi phát triển phần mềm cho robot di động đa cảm biến (IMU, encoder, camera), làm thế nào để đồng bộ dữ liệu cảm biến và xử lý tín hiệu trong thời gian thực? Hãy nêu các thách thức và giải pháp."
+                  "Khi phát triển phần mềm cho robot di động đa cảm biến (IMU, encoder, camera), làm thế nào để đồng bộ dữ liệu cảm biến và xử lý tín hiệu trong thời gian thực? Hãy nêu các thách thức và giải pháp.",
                 ],
                 isQuestion: true,
               },
@@ -2772,6 +2835,12 @@ export default (jobId: string, role: string) => {
             function: "App",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     case "human-resources":
@@ -2784,7 +2853,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Nhân sự",
                 description: [
-                  "Với vai trò là thành viên Ban Nhân sự, bạn sẽ tham gia vào các hoạt động quản lý, phát triển đội ngũ và xây dựng môi trường làm việc tích cực cho tổ chức."
+                  "Với vai trò là thành viên Ban Nhân sự, bạn sẽ tham gia vào các hoạt động quản lý, phát triển đội ngũ và xây dựng môi trường làm việc tích cực cho tổ chức.",
                 ],
                 isQuestion: false,
               },
@@ -2795,7 +2864,7 @@ export default (jobId: string, role: string) => {
                   "Hỗ trợ tổ chức các hoạt động nội bộ, sự kiện gắn kết đội nhóm.",
                   "Theo dõi, cập nhật thông tin thành viên và hỗ trợ giải quyết các vấn đề nhân sự.",
                   "Đề xuất các giải pháp nâng cao hiệu quả làm việc và phát triển đội ngũ.",
-                  "Tham gia xây dựng văn hóa tổ chức và môi trường làm việc tích cực."
+                  "Tham gia xây dựng văn hóa tổ chức và môi trường làm việc tích cực.",
                 ],
                 isQuestion: false,
               },
@@ -2811,7 +2880,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2821,7 +2890,7 @@ export default (jobId: string, role: string) => {
                   "Có kiến thức cơ bản về quản trị nhân sự hoặc tổ chức sự kiện.",
                   "Có kỹ năng giao tiếp, lắng nghe và giải quyết vấn đề.",
                   "Biết sử dụng các công cụ quản lý thông tin thành viên (Google Sheets, Notion, v.v.).",
-                  "Ưu tiên ứng viên từng tham gia tổ chức sự kiện, hoạt động đội nhóm hoặc có kinh nghiệm quản lý nhân sự."
+                  "Ưu tiên ứng viên từng tham gia tổ chức sự kiện, hoạt động đội nhóm hoặc có kinh nghiệm quản lý nhân sự.",
                 ],
                 isQuestion: false,
               },
@@ -2856,7 +2925,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Nhân sự",
                 description: [
-                  "Với vai trò là Phó ban Nhân sự, bạn sẽ hỗ trợ Trưởng ban trong việc quản lý, phát triển đội ngũ và xây dựng môi trường làm việc tích cực cho tổ chức."
+                  "Với vai trò là Phó ban Nhân sự, bạn sẽ hỗ trợ Trưởng ban trong việc quản lý, phát triển đội ngũ và xây dựng môi trường làm việc tích cực cho tổ chức.",
                 ],
                 isQuestion: false,
               },
@@ -2883,7 +2952,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2894,7 +2963,7 @@ export default (jobId: string, role: string) => {
                   "Có kinh nghiệm tổ chức sự kiện, hoạt động nội bộ hoặc quản lý nhân sự.",
                   "Có khả năng đào tạo, hướng dẫn thành viên mới về quy trình, công cụ quản lý nhân sự.",
                   "Biết sử dụng các công cụ quản lý thông tin thành viên (Google Sheets, Notion, v.v.).",
-                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các hoạt động đội nhóm, sự kiện hoặc nhân sự."
+                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các hoạt động đội nhóm, sự kiện hoặc nhân sự.",
                 ],
                 isQuestion: false,
               },
@@ -2931,7 +3000,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Nhân sự",
                 description: [
-                  "Với vai trò là Trưởng ban Nhân sự, bạn sẽ xây dựng chiến lược phát triển đội ngũ, quản lý nhân sự và xây dựng môi trường làm việc tích cực cho tổ chức."
+                  "Với vai trò là Trưởng ban Nhân sự, bạn sẽ xây dựng chiến lược phát triển đội ngũ, quản lý nhân sự và xây dựng môi trường làm việc tích cực cho tổ chức.",
                 ],
                 isQuestion: false,
               },
@@ -2962,7 +3031,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -2974,7 +3043,7 @@ export default (jobId: string, role: string) => {
                   "Thành thạo lập kế hoạch chiến lược, phân tích và đánh giá hiệu quả hoạt động nhân sự.",
                   "Có kinh nghiệm xây dựng, quản lý và triển khai các dự án nhân sự thực tế.",
                   "Biết sử dụng các công cụ quản lý thông tin thành viên (Google Sheets, Notion, v.v.).",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các hoạt động đội nhóm, sự kiện hoặc nhân sự."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các hoạt động đội nhóm, sự kiện hoặc nhân sự.",
                 ],
                 isQuestion: false,
               },
@@ -2996,7 +3065,7 @@ export default (jobId: string, role: string) => {
                   "Bạn có ý tưởng gì để nâng cao hiệu quả làm việc nhóm hoặc xây dựng văn hóa tổ chức?",
                   "Nếu thành viên không hoàn thành nhiệm vụ đúng hạn, bạn sẽ xử lý ra sao?",
                   "Bạn đã từng quản lí một hội nhóm hay tổ chức nào chưa (hội nhóm khoảng từ 20k-400k thành viên)? Nếu có, hãy cho chúng tôi biết về những khó khăn mà bạn đã gặp phải và cách bạn đã giải quyết chúng.",
-                  "Bạn đã từng tham gia MHPTeam hay làm các dự án thuộc MHPTeam với tư cách là Co-Founder hoặc Expert chưa?."
+                  "Bạn đã từng tham gia MHPTeam hay làm các dự án thuộc MHPTeam với tư cách là Co-Founder hoặc Expert chưa?.",
                 ],
                 isQuestion: true,
               },
@@ -3004,9 +3073,15 @@ export default (jobId: string, role: string) => {
             function: "Human Resources",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
-        case "competitive-programming":
+    case "competitive-programming":
       switch (role) {
         case "member":
           return {
@@ -3016,7 +3091,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Lập trình Thi đấu",
                 description: [
-                  "Với vai trò là thành viên Ban Lập trình Thi đấu, bạn sẽ tham gia rèn luyện, phát triển kỹ năng giải thuật, thuật toán và đại diện tổ chức tham dự các cuộc thi lập trình trong và ngoài nước."
+                  "Với vai trò là thành viên Ban Lập trình Thi đấu, bạn sẽ tham gia rèn luyện, phát triển kỹ năng giải thuật, thuật toán và đại diện tổ chức tham dự các cuộc thi lập trình trong và ngoài nước.",
                 ],
                 isQuestion: false,
               },
@@ -3027,7 +3102,7 @@ export default (jobId: string, role: string) => {
                   "Tham gia các buổi thảo luận, chia sẻ kinh nghiệm và giải pháp với các thành viên khác.",
                   "Đại diện tổ chức tham dự các cuộc thi lập trình như Tin học trẻ, VOI, ICPC, v.v.",
                   "Đóng góp xây dựng tài liệu, đề thi thử và hỗ trợ tổ chức các buổi luyện tập nội bộ.",
-                  "Cập nhật kiến thức về các thuật toán, cấu trúc dữ liệu và xu hướng mới trong lĩnh vực lập trình thi đấu."
+                  "Cập nhật kiến thức về các thuật toán, cấu trúc dữ liệu và xu hướng mới trong lĩnh vực lập trình thi đấu.",
                 ],
                 isQuestion: false,
               },
@@ -3043,7 +3118,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -3054,7 +3129,7 @@ export default (jobId: string, role: string) => {
                   "Thành thạo ít nhất một ngôn ngữ lập trình (C++, Python, Java, v.v.).",
                   "Có kinh nghiệm giải các bài toán trên các nền tảng lập trình thi đấu (Codeforces, AtCoder, LeetCode, v.v.).",
                   "Có khả năng làm việc nhóm, chia sẻ và thảo luận giải pháp.",
-                  "Ưu tiên ứng viên từng tham gia các cuộc thi lập trình hoặc có thành tích nổi bật trong lĩnh vực này."
+                  "Ưu tiên ứng viên từng tham gia các cuộc thi lập trình hoặc có thành tích nổi bật trong lĩnh vực này.",
                 ],
                 isQuestion: false,
               },
@@ -3065,7 +3140,7 @@ export default (jobId: string, role: string) => {
                   "Được tham gia vào các dự án lớn",
                   "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
                   "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
-                  "Được hỗ trợ luyện tập, tham gia các cuộc thi lập trình trong và ngoài nước"
+                  "Được hỗ trợ luyện tập, tham gia các cuộc thi lập trình trong và ngoài nước",
                 ],
                 isQuestion: false,
               },
@@ -3075,7 +3150,7 @@ export default (jobId: string, role: string) => {
                   "Bạn đã từng tham gia cuộc thi lập trình nào chưa? Hãy chia sẻ kinh nghiệm hoặc thành tích của bạn.",
                   "Theo bạn, kỹ năng quan trọng nhất khi tham gia lập trình thi đấu là gì? Vì sao?",
                   "Hãy trình bày một bài toán thuật toán mà bạn tâm đắc nhất và cách bạn giải quyết nó.",
-                  "Bạn sẽ làm gì để nâng cao kỹ năng lập trình thuật toán của bản thân và hỗ trợ các thành viên khác trong ban?"
+                  "Bạn sẽ làm gì để nâng cao kỹ năng lập trình thuật toán của bản thân và hỗ trợ các thành viên khác trong ban?",
                 ],
                 isQuestion: true,
               },
@@ -3091,7 +3166,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Lập trình Thi đấu",
                 description: [
-                  "Với vai trò là Phó ban Lập trình Thi đấu, bạn sẽ hỗ trợ Trưởng ban trong việc xây dựng, phát triển đội ngũ và tổ chức các hoạt động luyện tập, thi đấu lập trình cho tổ chức."
+                  "Với vai trò là Phó ban Lập trình Thi đấu, bạn sẽ hỗ trợ Trưởng ban trong việc xây dựng, phát triển đội ngũ và tổ chức các hoạt động luyện tập, thi đấu lập trình cho tổ chức.",
                 ],
                 isQuestion: false,
               },
@@ -3103,7 +3178,7 @@ export default (jobId: string, role: string) => {
                   "Tổ chức các buổi thảo luận, chia sẻ kinh nghiệm, giải đáp thắc mắc về thuật toán, cấu trúc dữ liệu.",
                   "Đào tạo, hướng dẫn các thành viên mới về kỹ năng lập trình thi đấu.",
                   "Báo cáo tiến độ, kết quả luyện tập và thi đấu cho Trưởng ban và đề xuất giải pháp khi có vấn đề phát sinh.",
-                  "Cập nhật kiến thức về các thuật toán, cấu trúc dữ liệu và xu hướng mới trong lĩnh vực lập trình thi đấu."
+                  "Cập nhật kiến thức về các thuật toán, cấu trúc dữ liệu và xu hướng mới trong lĩnh vực lập trình thi đấu.",
                 ],
                 isQuestion: false,
               },
@@ -3119,7 +3194,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -3130,7 +3205,7 @@ export default (jobId: string, role: string) => {
                   "Có kinh nghiệm tham gia các cuộc thi lập trình (Codeforces, AtCoder, Tin học trẻ, VOI, ICPC, v.v.).",
                   "Có khả năng đào tạo, hướng dẫn thành viên mới về thuật toán, cấu trúc dữ liệu và kỹ năng lập trình thi đấu.",
                   "Có khả năng tổ chức các buổi luyện tập, thảo luận, giải đáp thắc mắc về thuật toán.",
-                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các hoạt động lập trình thi đấu hoặc có thành tích nổi bật."
+                  "Ưu tiên ứng viên từng giữ vai trò quản lý hoặc trưởng nhóm trong các hoạt động lập trình thi đấu hoặc có thành tích nổi bật.",
                 ],
                 isQuestion: false,
               },
@@ -3141,7 +3216,7 @@ export default (jobId: string, role: string) => {
                   "Được tham gia vào các dự án lớn",
                   "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
                   "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
-                  "Được hỗ trợ luyện tập, tham gia các cuộc thi lập trình trong và ngoài nước"
+                  "Được hỗ trợ luyện tập, tham gia các cuộc thi lập trình trong và ngoài nước",
                 ],
                 isQuestion: false,
               },
@@ -3167,7 +3242,7 @@ export default (jobId: string, role: string) => {
               {
                 title: "Mục đích của Ban Lập trình Thi đấu",
                 description: [
-                  "Với vai trò là Trưởng ban Lập trình Thi đấu, bạn sẽ xây dựng chiến lược phát triển đội ngũ, tổ chức các hoạt động luyện tập, thi đấu và đại diện tổ chức trong các cuộc thi lập trình."
+                  "Với vai trò là Trưởng ban Lập trình Thi đấu, bạn sẽ xây dựng chiến lược phát triển đội ngũ, tổ chức các hoạt động luyện tập, thi đấu và đại diện tổ chức trong các cuộc thi lập trình.",
                 ],
                 isQuestion: false,
               },
@@ -3197,7 +3272,7 @@ export default (jobId: string, role: string) => {
                   "Có khả năng tìm kiếm, nghiên cứu và chắt lọc thông tin tốt",
                   "Có sự nhạy bén trong ngôn ngữ",
                   "Có thể dành 4 – 5 tiếng làm việc trong tuần, 2 – 3 tiếng cuối tuần cho các buổi họp triển khai công việc và làm việc liên ban",
-                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets"
+                  "Biết sử dụng các công cụ tiện ích, chẳng hạn như Google Drive, Microsoft Word, Google Docs, Google Sheets",
                 ],
                 isQuestion: false,
               },
@@ -3209,7 +3284,7 @@ export default (jobId: string, role: string) => {
                   "Có kinh nghiệm xây dựng, quản lý và triển khai các hoạt động luyện tập, thi đấu lập trình.",
                   "Có kỹ năng lãnh đạo, quản lý đội nhóm và đào tạo phát triển năng lực lập trình thi đấu.",
                   "Có khả năng tổ chức các buổi luyện tập, thi thử, thảo luận chuyên môn và xây dựng tài liệu, đề thi thử cho ban.",
-                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các hoạt động lập trình thi đấu hoặc có thành tích nổi bật."
+                  "Ưu tiên ứng viên từng giữ vai trò trưởng ban hoặc quản lý cấp cao trong các hoạt động lập trình thi đấu hoặc có thành tích nổi bật.",
                 ],
                 isQuestion: false,
               },
@@ -3220,7 +3295,7 @@ export default (jobId: string, role: string) => {
                   "Được tham gia vào các dự án lớn",
                   "Tất cả các dự án nếu tham gia đều được cho phép đưa vào CV",
                   "Được hỗ trợ bởi các chuyên gia trong lĩnh vực",
-                  "Được hỗ trợ luyện tập, tham gia các cuộc thi lập trình trong và ngoài nước"
+                  "Được hỗ trợ luyện tập, tham gia các cuộc thi lập trình trong và ngoài nước",
                 ],
                 isQuestion: false,
               },
@@ -3231,7 +3306,7 @@ export default (jobId: string, role: string) => {
                   "Bạn sẽ làm gì để nâng cao kỹ năng lập trình thuật toán của bản thân và hỗ trợ các thành viên khác trong ban?",
                   "Nếu thành viên trong ban gặp khó khăn khi luyện tập hoặc thi đấu, bạn sẽ hỗ trợ như thế nào?",
                   "Bạn có ý tưởng gì để tổ chức các buổi luyện tập hoặc thi thử hiệu quả hơn cho ban?",
-                  "Bạn đã từng xây dựng hoặc đóng góp tài liệu, đề thi thử cho các buổi luyện tập chưa? Hãy chia sẻ kinh nghiệm của bạn."
+                  "Bạn đã từng xây dựng hoặc đóng góp tài liệu, đề thi thử cho các buổi luyện tập chưa? Hãy chia sẻ kinh nghiệm của bạn.",
                 ],
                 isQuestion: true,
               },
@@ -3239,9 +3314,19 @@ export default (jobId: string, role: string) => {
             function: "Competitive Programming",
             position: "Head",
           };
+        default:
+          throw createError({
+            statusCode: 404,
+            statusMessage: "Not Found",
+            message: "Không tìm thấy thông tin về ban này",
+          });
       }
       break;
     default:
-      return { title: jobId };
+      throw createError({
+        statusCode: 404,
+        statusMessage: "Not Found",
+        message: "Không tìm thấy thông tin về ban này",
+      });
   }
 };

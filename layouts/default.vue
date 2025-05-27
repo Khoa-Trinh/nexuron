@@ -6,6 +6,6 @@
     >
       <slot />
     </div>
-    <!-- <Footer /> -->
+    <LazyLayoutsFooter hydrate-on-visible />
   </div>
 </template>

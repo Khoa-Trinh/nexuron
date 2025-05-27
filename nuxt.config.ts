@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxt/ui",
     "@vueuse/nuxt",
+    "motion-v/nuxt",
   ],
 
   css: ["~/assets/css/main.css"],
@@ -30,21 +31,21 @@ export default defineNuxtConfig({
     head: {
       title: "Project Nexuron",
       meta: [
-        { name: "description", content: "The organization of the first generation Tin-LN i2427, uniting passionate, creative, and innovative technology enthusiasts." },
-        { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { property: "og:image", content: "/Nexuron-horizon.png" },
-
-      ],
-      link: [
         {
-          rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap",
+          name: "description",
+          content:
+            "The organization of the first generation Tin-LN i2427, uniting passionate, creative, and innovative technology enthusiasts.",
         },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
       ],
+    },
+    pageTransition: {
+      name: "page",
+      mode: "out-in",
     },
   },
   runtimeConfig: {
     apiUrl: process.env.API_URL,
-    allowedHosts: process.env.ALLOWED_HOSTS || "",
+    allowedHosts: process.env.ALLOWED_HOSTS,
   },
 });
