@@ -6,19 +6,15 @@ export default defineEventHandler(async (event) => {
   const body = await readBody(event);
   try {
     const response = await $fetch(reqUrl, {
-        method: "POST",
-        body,
-      });
+      method: "POST",
+      body,
+    });
     return response;
-  }
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  catch (error: any) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  } catch (error: any) {
     const statusCode = error.response?.status || 500;
     const message = error.response?._data?.msg || "Internal Server Error";
     setResponseStatus(event, statusCode);
     return { status: statusCode, message };
   }
-  
-
-  
 });
